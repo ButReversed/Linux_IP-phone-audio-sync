@@ -1,5 +1,13 @@
 # AudioRelay command(For pulseaudio or pipewire)
 #Load
+#use pactl list sources | grep Name
+to know yours
+#in your case
+
+
+pactl load-module module-simple-protocol-tcp source=[WHAT APPEARED IN SOURCES].monitor record=true port=8000 rate=44100 format=s16le channels=2
+
+#in my case
 pactl load-module module-simple-protocol-tcp source=alsa_output.pci-0000_00_1b.analog-stereo.monitor record=true port=8000 rate=44100 format=s16le channels=2
 
 or
