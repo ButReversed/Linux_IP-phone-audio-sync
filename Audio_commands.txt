@@ -1,6 +1,9 @@
-# AudioRelay spinoff command(For pulseaudio)
+# AudioRelay command(For pulseaudio or pipewire)
+#Load
 pactl load-module module-simple-protocol-tcp record=true port=8000 rate=44100 format=s16le channels=2
 
 #unload
 
 pactl unload-module module-simple-protocol-tcp
+
+Use Simple protocol player app on your phone
