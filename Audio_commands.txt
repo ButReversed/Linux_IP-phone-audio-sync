@@ -1,6 +1,6 @@
 # AudioRelay command(For pulseaudio or pipewire)
 #Load
-#use pactl list sources | grep Name
+#use "pactl list sources | grep Name" or "pactl get-default-sink"
 to know yours
 #in your case
 
