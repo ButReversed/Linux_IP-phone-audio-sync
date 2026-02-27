@@ -1,2 +1,2 @@
 # Linux_IP-phone-audio-sync
-This follows with 2 codes which you add on your terminal that opens an port with an ip to connect with ur phone
+This project enables real-time audio streaming from a Linux system to a mobile device over a local network. By leveraging the Simple Protocol via PulseAudio or PipeWire, you can broadcast your system's audio output to a mobile client with minimal latency.
